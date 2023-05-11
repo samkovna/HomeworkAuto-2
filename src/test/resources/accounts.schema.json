@@ -3,7 +3,6 @@
   "type": "array",
   "items": {
     "type": "object",
-
     "required": [
       "id",
       "name",
@@ -25,7 +24,7 @@
         "pattern": "^•• \\d{4}$"
       },
       "balance": {
-        "type": "integer",
+        "type": "integer"
       },
       "currency": {
         "type": "string"
