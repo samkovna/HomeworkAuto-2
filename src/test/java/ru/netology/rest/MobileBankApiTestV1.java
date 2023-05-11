@@ -22,7 +22,7 @@ class MobileBankApiTestV1 {
               .statusCode(200)
               // static import для JsonSchemaValidator.matchesJsonSchemaInClasspath
               .body(matchesJsonSchemaInClasspath("accounts.schema.json"))
-              .body("[2].currency", equalTo("RUR"))
+              .body("[2].currency", equalTo("RUB"))
       ;
     }
 }
